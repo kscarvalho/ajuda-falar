@@ -1,0 +1,103 @@
+body {
+  height: 800px;
+}
+
+ .container-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f3f3f3;
+}
+
+.menu{
+  display: flex;
+  font-size: 20px;
+  display: flex;
+  gap: 50px;
+  margin-right: 50px;
+  padding: 20px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+ 
+}
+
+.menu a {
+  display: flex;
+  text-decoration: none;
+  color: black;
+}
+
+
+.logo {
+  margin-left: 50px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.introducao {
+  margin-left: 50px;
+}
+
+.texto p{
+  padding-left: 0px;
+  color: #000;
+  font-size: 16px;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+footer {
+  display: flex;
+  gap: 60px;
+  background: #f3f3f3;
+  height: 200px;
+  margin-bottom: 0px;
+}
+
+h4 {
+  color: #707070;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 20px;
+  margin-left: 50px;
+  font-size: 15px;
+}
+
+ul {
+  color: #808080;
+  width: 200px;
+}
+
+li {
+  font-size: 14px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.sub-footer {
+  margin: 0px;
+  height: 90px;
+  background: #000;
+  border-radius: 0px 0px 10px 10px;
+}
+
+h3 {
+  padding-top: 10px;
+  padding-left: 50px;
+  font-size: 11px;
+  color: #fff;
+  margin: 0px;
+}
+
+p {
+  font-size: 10px;
+  margin: 0px;
+  padding-left: 50px;
+  padding-top: 10px;
+  color: #d3d3d3;
+
+}
+
+
+
