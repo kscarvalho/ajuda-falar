@@ -40,15 +40,6 @@ body {
   color: black;
 }
 
-@media (max-width: 600px) {
-  .menu a {
-   
-  }
-}
-
-
-
-
 .logo {
   margin-left: 50px;
   margin-top: 0px;
