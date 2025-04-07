@@ -21,6 +21,7 @@ body {
  border-radius: 5px;
 }
 
+
 h1 {
   margin-left: 150px;
   margin-bottom: 0px ;
@@ -70,13 +71,6 @@ img {
   margin: 10px;
   border-radius: 5px;
   cursor: pointer;
-}
-
-img:hover {
-  width: 10%;;
-  height: auto;
-  transition:  0.3s;
-
 }
 
 

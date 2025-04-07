@@ -6,7 +6,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: #f3f3f3;
+  background: #bdf3f0;
 }
 
 @media (max-width: 600px) {
@@ -36,7 +36,14 @@ body {
 
 .button-menu {
   margin: 5px;
-  padding: 10px 20px; 
+  padding: 5px 20px; 
+}
+
+.button-menu:hover{
+  color: #ffff;
+  background-color: #20b2aa;
+  border-radius: 5px;
+
 }
 
 @media (max-width: 600px) {
@@ -75,10 +82,11 @@ body {
 .menu a {
   display: flex;
   text-decoration: none;
-  color: black;
+  color: #020e0d;
 }
 
 .logo {
+  color: #020e0d;
   margin-left: 50px;
   margin-top: 0px;
   margin-bottom: 0px;
@@ -136,7 +144,7 @@ body {
 footer {
   display: flex;
   gap: 60px;
-  background: #f3f3f3;
+  background: #bdf3f0;
   height: 150px;
   margin-bottom: 0px;
 }
@@ -160,7 +168,7 @@ footer {
 }
 
 h4 {
-  color: #707070;
+  color: #0b3e3b;
   margin-top: 0px;
   margin-bottom: 0px;
   padding-top: 20px;
@@ -174,6 +182,7 @@ ul {
 }
 
 li {
+  color: #0f534f;
   font-size: 14px;
   margin-left: 10px;
   margin-bottom: 10px;
@@ -183,7 +192,7 @@ li {
 .sub-footer {
   margin: 0px;
   height: 90px;
-  background: #000;
+  background: #09302e;
   border-radius: 0px 0px 10px 10px;
 }
 
