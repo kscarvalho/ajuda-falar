@@ -72,12 +72,6 @@ img {
   cursor: pointer;
 }
 
-img:hover {
-  width: 110px;
-  height: 110px;
-  transition:  0.3s;
-
-}
 
 
 
