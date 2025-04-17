@@ -10,26 +10,16 @@ body {
   min-width: 380px;
 }
 
-.button a {
- color: #87CEFA;
- width: 10px;
- height: 10px;
- padding: 30px 30px;
- margin-right: 90px; 
- margin-top: 10px;
- margin-bottom: 30px;
- text-decoration: none;
- font-size: 30px;
- font-weight: bold;
+.seta-voltar {
+  width: 50px;
+  height: 30px;
+  margin-right: 85px;
+  padding: 10px;
 }
 
-.button a:hover {
-  color:  #0000CD;
-  
-}
 
 @media (max-width: 600px) {
-  .button a {
+  .seta-voltar {
     margin-right: 10px;
   }
 }
