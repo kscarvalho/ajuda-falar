@@ -12,55 +12,99 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-width: 380px;
+  min-width: 1000px;
+  margin-left: 183px;
+  margin-right: 183px;
 }
 
 .seta-voltar {
   width: 50px;
   height: 30px;
-  margin-right: 85px;
   padding: 10px;
+ 
+  
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1363px) {
   .seta-voltar {
-    margin-right: 90px;
+    margin-right: 100px;
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1177px) {
   .seta-voltar {
-    margin-right: 30px;
+    margin-right: 200px;
+  }
+}
+
+@media (max-width: 1072px) {
+  .seta-voltar {
+    margin-right: 300px;
+  }
+}
+
+@media (max-width: 1059px) {
+  .seta-voltar {
+    margin-right: 400px;
+  }
+}
+
+@media (max-width: 877px) {
+  .seta-voltar {
+    margin-right: 500px;
+  }
+}
+
+@media (max-width: 777px) {
+  .seta-voltar {
+    margin-right: 600px;
+  }
+}
+
+@media (max-width: 679px) {
+  .seta-voltar {
+    margin-right: 700px;
+  }
+}
+
+@media (max-width: 676px) {
+  .seta-voltar {
+    margin-right: 780px;
   }
 }
 
 h1 {
   color: #000080;
-  margin-left: 100px;
   margin-bottom: 0px ;
   margin-top: 0px;
+  border-bottom: solid 1px white;
+  cursor: pointer;
 }
 
-@media (max-width: 441px) {
+@media (max-width: 1358px) {
   h1 {
-    margin-left: 30px;
+    margin-left: -80px;
   }
+}
+
+h1:hover {
+  border-bottom: solid 2px;
 }
 
 .container-animais {
   overflow: hidden;
   display: flex;
-  max-width: 1266px;
-  max-height: 830px;
-  min-width: 350px;
+  max-width: 1000px;
+  min-width: 340px;
+  min-width: 500px;
   gap: 20px;
   background: #87CEFA;
   margin: 0px 95px 0px 95px;
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 5px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 20px;
+  
 }
 
 @media (max-width: 444px) {
@@ -97,4 +141,8 @@ img {
   }
 }
 
+section {
+  display: flex;
+  justify-content: center;
+}
 
