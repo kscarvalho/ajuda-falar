@@ -50,7 +50,7 @@ h1:hover {
   overflow: hidden;
   display: flex;
   max-width: 940px;
-  gap: 40px;
+  gap: 30px;
   background: #87CEFA;
   flex-wrap: wrap;
   justify-content: center;
