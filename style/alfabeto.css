@@ -1,5 +1,5 @@
 .geral {
-  max-height: 1000px;;
+  max-height: 1000px;
 }
 
 body {
@@ -45,12 +45,12 @@ body {
 }
 
 h1 {
-  color:  #283618;
+  color:  #03045e;
   margin-bottom: 0px ;
   margin-top: 0px;
   border-bottom: solid 2px white;
   cursor: pointer;
-  margin-left: 170px;
+  margin-left: 190px;
 }
 
 @media (max-width: 431px) {
@@ -64,12 +64,12 @@ h1:hover {
   
 }
 
-.container-animais {
+.container-alfabeto {
   overflow: hidden;
   display: flex;
   max-width: 1000px;
   gap: 60px;
-  background: #283618;
+  background: #023e8a;
   flex-wrap: wrap;
   justify-content: center;
   border-radius: 5px;
@@ -94,7 +94,7 @@ img {
   height: 70px;
   width: 70px;
   padding: 20px;
-  background: #606c38;
+  background: #fff;
   border-radius: 5px;
   cursor: pointer;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
@@ -104,7 +104,7 @@ img {
 img:hover {
   transform: rotate(05deg);
   transition: 1s;
-  background: #a3b18a;
+  background: #caf0f8;
 }
 
 @media (max-width: 431px) {
@@ -130,8 +130,5 @@ span {
   font-family: sans-serif;
   text-transform: uppercase;
 }
-
-
-
 
 
