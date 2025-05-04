@@ -3,58 +3,78 @@
   margin: 0px;
 }
 
+body {
+  margin: 0px 10px 0px 10px;
+}
+
 ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 50px;
- 
 }
 
 li {
+  display: block;
   list-style-type: none;
   border-radius: 5px;
   cursor: pointer;
 }
 
-.alfabeto{
+.alfabeto, .formas, .numeros, .cores{
   background: #836FFF;
 }
 
-.formas{
-  background: #7FFFD4;
-}
-
-.numeros{
-  background: #ADFF2F;
-}
-
-.cores{
-  background: #FFFF00;
-}
-
-.domestico {
+.domestico{
   background: #ADFF2F;
 }
 
 strong {
   display: block;
+  font-size: 14px;
+  letter-spacing: 1px;
   text-align: center;
   margin-bottom: 10px;
-  color: #000;
 }
 
 img {
   padding: 10px;
-  width: 142px;
- 
+  width: 100px;
+}
+.section-aprenda{
+  margin-bottom: 20px;
 }
 
-h1 {
+.section-aprenda ul strong {
+  color: #fff;
+}
+
+.section-animais{
+  border-top: solid 1px #cdcdcd;
+}
+
+.section-animais ul strong{
+  color: #000;
+}
+
+.titulo-aprenda {
+  color: #000;
   font-size: 24px;
   margin: 20px;
-  text-align: center;
-  border-bottom: solid 1px #cdcdcd;
+  margin-left: 44px;
   padding-bottom: 10px;
 }
+
+.titulo-animais {
+  color: #000;
+  font-size: 24px;
+  margin: 20px;
+  padding-bottom: 10px;
+  margin-left: 44px;
+}
+
+a {
+  text-decoration: none;
+}
+
 
