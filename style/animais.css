@@ -7,35 +7,49 @@ body {
   padding: 0px;
 }
 
-.button {
+a{
+  width: 80px;
+}
+
+.menu {
   background: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
-  
+  min-width: 375px;
+  margin-left: 170;
+  margin-right: 158px;
 }
 
-.seta-voltar{
-  font-size: 2px;
-  width: 50px;
-  height: 30px;
-  padding: 5px; 
-  margin-right: 100px;
-  min-width: 200px;
-  box-shadow: none;
-  background: none;
-  margin-left: 70px;
+@media (max-width: 700px) {
+  .menu{
+    margin-right: 30px;
+  }
+
+button{
+ color: #283618; 
+ font-size: 16px; 
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: 600;
+ margin-right: 163px;
+ padding: 6px;
+ width: 80px;
+ height: 40px;
+ border-radius: 5px;
+ box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+ border: none;
 }
 
-.seta-voltar:hover {
-  background: none;
-  font-weight: bold;
+button:hover {
+  color: #fff;
+  background: #606c38;
+  cursor: pointer;
 }
 
 @media (max-width: 1115px) {
-  .seta-voltar{
+  button{
     margin-right: 37px;
   }
 }
@@ -132,8 +146,3 @@ span {
   font-family: sans-serif;
   text-transform: uppercase;
 }
-
-
-
-
-
