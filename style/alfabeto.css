@@ -1,5 +1,5 @@
 .geral {
-  max-height: 1000px;
+  box-sizing: border-box;
 }
 
 body {
@@ -24,20 +24,6 @@ a {
   min-width: 375px;
   margin-left: 170;
 }
-
-@media (max-width: 700px) {
-  .menu{
-    margin-right: 30px;
-  }
-}
-
-@media (max-width: 370px) {
-  .menu{
-    margin-right: 0px;
-  }
-} 
-
-
 
 button {
  color: #03045e; 
