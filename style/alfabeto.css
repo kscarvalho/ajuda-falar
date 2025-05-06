@@ -100,7 +100,7 @@ h1::before{
   overflow: hidden;
   display: flex;
   max-width: 1000px;
-  gap: 60px;
+  gap: 20px;
   background: #023e8a;
   flex-wrap: wrap;
   justify-content: center;
@@ -123,8 +123,8 @@ h1::before{
 }
 
 img {
-  height: 70px;
-  width: 70px;
+  height: 60px;
+  width: 60px;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
