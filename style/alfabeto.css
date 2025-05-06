@@ -5,6 +5,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  min-width: 375px;
 }
 
 a {
@@ -61,7 +62,6 @@ button:hover {
 @media (max-width: 700px) {
   button{
     margin-right: 20px;
-    background: red;
   }
 }
 
