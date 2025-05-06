@@ -71,12 +71,23 @@ button:hover {
 }
 
 h1 {
-  color:  #03045e;
+  color:  #fff;
+  background: #306fc2;
   margin-bottom: 0px ;
   margin-top: 0px;
   border-bottom: solid 2px white;
-  cursor: pointer;
   margin-left: 170px;
+  padding: 0px 10px 0px 10px;
+  border-radius: 0px 5px 5px 0px;
+}
+
+h1::before{
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 37px;
+  background: #ffba08;
+  margin-left: -10px;
 }
 
 @media (max-width: 431px) {
@@ -84,11 +95,6 @@ h1 {
     margin-left: 30px;
   }
 }
-
-h1:hover {
-  border-bottom: solid 2px ; 
-}
-
 .container-alfabeto {
   overflow: hidden;
   display: flex;
